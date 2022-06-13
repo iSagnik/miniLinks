@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>MiniLinks</title>
+    <link
+      href="http://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <style>
+      body {
+        font-family: "Roboto", sans-serif;
+        font-size: 2.3vw;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      main {
+        text-align: center;
+      }
+
+      #longURL {
+        min-width: 300px;
+        min-height: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p>Welcome to MiniLinks</p>
+      <form>
+        <input type="text" id="longURL" name="longURL" placeholder="Enter your obnoxiously long url here"/>
+        <input type="submit" value="Submit" />
+      </form>
+    </main>
+  </body>
+</html>
